@@ -1,3 +1,25 @@
+# Step1: Adding Navigation with Event Binding and ngIf( Input, Output)
+
+# Step2: Passing Recipe Data with Property Binding( Input, Output)
+
+# Step3: Passing Data with Event and Property Binding ( Create EventEmiter)
+
+# Step4: Allowing the User to Add Ingredients to do Shopping List( @VViewChild)
+
+# Step5: Dropdown Directive( HostBinding, HostListener)
+
+# Step6: Managing Recipes in Recipe Seroive( Create Serive)
+
+# Step7: Using a Serice for cross component ( Create Serivce)
+
+# Step8: Adding the Shopping List Service( Refactor Using Service)
+
+# Step9: Using Services for Pushing Data from A to B( Service using EventEmiter)
+
+# Step10: Adding Ingredients to Recipes( add new ingredient to Ingredient Object)
+
+# Step11: Passing Ingredients from Recipes to the Shopping List (via a Service)
+
 # MyFirstApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
