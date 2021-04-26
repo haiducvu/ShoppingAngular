@@ -20,6 +20,28 @@
 
 # Step11: Passing Ingredients from Recipes to the Shopping List (via a Service)
 
+# Step12: Setup Routing (Router Module) (router-outlet)
+
+# Step13: Adding Navigation to the App (routerLink="/link")
+
+# Step14: Marking Active Routes (routerActive="/link)
+
+# Step15: Fixing Pages Reload Issues( Remove href="#)
+
+# Step16: Child Routes Challenge
+
+# Step17: Adding Child Routing Together ( Create recipe-start component, childrent link)
+
+# Step18: Configuring Route Parameters
+
+# Step19: Passing Dynamic Parameters to Links( Passing index in for loop to render path /index) [routerLink]="[index]"
+
+# Step20: Styling Active Recipe Items( routerLinkActive="acitve")
+
+# Step21: Adding Editing Routes( create recipe-edit compoennt and add path: ':id/new')
+
+# Step22: Retrieving Route Parameters( Get params in router)
+
 # MyFirstApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
