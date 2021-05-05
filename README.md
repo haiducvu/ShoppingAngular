@@ -42,7 +42,19 @@
 
 # Step22: Retrieving Route Parameters( Get params in router)
 
-# Step23: Programmactic Navigation to the Edit Page( route.navigate, relativeTo)
+# Step23: TD Adding the shopping List Form( Use ngSubmit, remove ViewChild get value in form)
+
+# Step24: Adding Validation to the Form (required, pattern="^[1-9]+[0-9]\*$", [disabled]='!f.valid')
+
+# Step25: Allowing the Selection of Items in the List( create new Subscription, ngOnDestroy)
+
+# Step26: Loading the Shopping List Items into the Form( update information in Form)
+
+# Step27: Updating existing Items( Create function updateIngredient)
+
+# Step28: Resetting the Form( clear form this.slForm.reset())
+
+# Step 29: Allowing the Deletion of Shopping List Items => chưa handle
 
 # MyFirstApp
 
