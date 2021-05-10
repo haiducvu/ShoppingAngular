@@ -1,60 +1,54 @@
-# Step1: Adding Navigation with Event Binding and ngIf( Input, Output)
+# <<SETUP UI COMPONENT>>
 
-# Step2: Passing Recipe Data with Property Binding( Input, Output)
+# Step1: Setup Component
 
-# Step3: Passing Data with Event and Property Binding ( Create EventEmiter)
+# Step2: Adding Navigation bar => header file
 
-# Step4: Allowing the User to Add Ingredients to do Shopping List( @VViewChild)
+# Step3: Creating a Recipe Model => Create recipe.model.ts( Khai báo type variable)
 
-# Step5: Dropdown Directive( HostBinding, HostListener)
+# Step4: Adding Content to the Recipes Components=> Create Recipe Object( cant new Recipe and import Data to object Recipe)
 
-# Step6: Managing Recipes in Recipe Seroive( Create Serive)
+# Step5: Outputing a List of Recipes with ngFor( Using \*ngFor to render list Recipes)
 
-# Step7: Using a Serice for cross component ( Create Serivce)
+# Step6: Display Recipe Details( Add element in Detail Component)
 
-# Step8: Adding the Shopping List Service( Refactor Using Service)
+# Step7: Working on the ShoppingListComponent( Handling Shopping list, create Ingredient[])
 
-# Step9: Using Services for Pushing Data from A to B( Service using EventEmiter)
+# Step8: Creating Ingredient Model( shortcut class Ingredient)
 
-# Step10: Adding Ingredients to Recipes( add new ingredient to Ingredient Object)
+# Step9: Creating and Outputing the Shopping List( Use \*ngFor render shopping item in Ingredients List )
 
-# Step11: Passing Ingredients from Recipes to the Shopping List (via a Service)
+# Step10: Adding a Shopping List Edit Section( Create Shopping Eidt Component)
 
-# Step12: Setup Routing (Router Module) (router-outlet)
+# <<SETUP COMPONENT DATABINDING>>
 
-# Step13: Adding Navigation to the App (routerLink="/link")
+# Step11: Adding Navigation with Event Binding( handle in app.compoennt.html, using @Output() Event Emitter to switch 2 tab)
 
-# Step14: Marking Active Routes (routerActive="/link)
+# Step12: Passing Recipe Data with Property Binding( Binding recipe-list <-> recipe-item, Using @Input to tranfer data)
 
-# Step15: Fixing Pages Reload Issues( Remove href="#)
+# Step13: Passing Data with Event and Property Binding( click item in recipe List -> render to recipe deatail)( Step emit data hơi chuối giữa các component)
 
-# Step16: Child Routes Challenge
+# Step14: Allowing the User to Add Ingredients to the Shopping List( Collect value from form #nameInput, #amountInput, handle Submit click=> onAddItem, using ViewChild, using Output ingredientAdded(data), Thêm item vào shopping list)
 
-# Step17: Adding Child Routing Together ( Create recipe-start component, childrent link)
+# <<Directives>>
 
-# Step18: Configuring Route Parameters
+# Step15: Building and Using a Dropdown Directive( Create file dropdowndirective using HostBinding and HostListener to handle click button to dropdown menu List)
 
-# Step19: Passing Dynamic Parameters to Links( Passing index in for loop to render path /index) [routerLink]="[index]"
+# <<Service & Dependency Injection>>
 
-# Step20: Styling Active Recipe Items( routerLinkActive="acitve")
+# Step16: Setting up the Services( Create recipe.service file )
 
-# Step21: Adding Editing Routes( create recipe-edit compoennt and add path: ':id/new')
+# Step17: Managing Recipes in a Recipe Service(1. Move Recipe List form recipe list file to recipe service 2. create function getRecipes())
 
-# Step22: Retrieving Route Parameters( Get params in router)
+# Step18: Using a Service for cross-Component Comunication( 1.Remove event in recipe-item file 2. Create recipeSelected eventEmmitter in recipeService file and subscribe eventEmiter)
 
-# Step23: TD Adding the shopping List Form( Use ngSubmit, remove ViewChild get value in form)
+# Step19: Adding the Shopping list Service(1. Move shopping list array to shopping-list.service file, 2. create fucntion getShoppingList 3. create function add ingredient& Method ingredient add ingredient)
 
-# Step24: Adding Validation to the Form (required, pattern="^[1-9]+[0-9]\*$", [disabled]='!f.valid')
+# Step20: Using Services for Pushing Data from A to B( Create event emitter follow ingredient list change-> subscribe event emit => re-assigned to ingredient present)
 
-# Step25: Allowing the Selection of Items in the List( create new Subscription, ngOnDestroy)
+# Step21: Adding Ingredients to Recipes( In recipe.Service file add to new array Ingredient to render in at recipe-detail file)
 
-# Step26: Loading the Shopping List Items into the Form( update information in Form)
-
-# Step27: Updating existing Items( Create function updateIngredient)
-
-# Step28: Resetting the Form( clear form this.slForm.reset())
-
-# Step 29: Allowing the Deletion of Shopping List Items => chưa handle
+# Step22: Passing Ingredients from Recipes to the Shopping List( via a Service) (Using @Injectable() ) (Add Click button Add Ingredients to Shopping List, Injectatble để kết nối 2 file service lại với nhau)
 
 # MyFirstApp
 
